@@ -7,6 +7,7 @@ import (
 
 	"example.com/database"
 	"example.com/helpers"
+	"github.com/asaskevich/govalidator"
 	"github.com/go-redis/redis/v8"
 	"github.com/gofiber/fiber/v2"
 	"github.com/google/uuid"
