@@ -7,6 +7,7 @@ import (
 	"github.com/joho/godotenv"
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/logger"
+	"example.com/routes"
 )
 
 func setupRoutes(app *fiber.App){
